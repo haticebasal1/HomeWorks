@@ -10,7 +10,7 @@ if (number>number2&&number>number3)
     if (number2 >= number3)
                 Console.WriteLine($"Sıralama: {number}, {number2}, {number3}");
             else
-                Console.WriteLine($"Sıralama: {number}, {number3}, {number2}");
+                Console.WriteLine($"Sıralama: {number}, {number2}, {number3}");
         }
         else if (number2 >= number && number2 >= number3)
         {

@@ -1,0 +1,12 @@
+﻿Console.WriteLine("1.sayıyı giriniz:");
+int one=int.Parse(Console.ReadLine()!);
+Console.WriteLine("2.sayıyı giriniz:");
+int two=int.Parse(Console.ReadLine()!);
+Console.WriteLine("1)Toplama");
+Console.WriteLine("2)Çıkarma");
+Console.WriteLine("3)Çarpma");
+Console.WriteLine("4)Bölme");
+Console.WriteLine("Seçiminiz: ");
+string choice = Console.ReadLine()!;
+string choice1 = (choice =="1")?$"Sonuç: "+(one+two):(choice =="2")?$"Sonuç: "+(one-two):(choice =="3")?$"Sonuç: "+(one*two):(choice =="4")?$"Sonuç: "+(one/two):$"Böyle bir sayı yok.";
+Console.WriteLine(choice1);
