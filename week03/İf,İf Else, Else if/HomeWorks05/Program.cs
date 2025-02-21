@@ -1,9 +1,8 @@
-﻿Console.Write("1.sayıyı giriniz:");
+﻿Console.WriteLine("1.kenar uzunluğunu giriniz: ");
 int a = int.Parse(Console.ReadLine()!);
-Console.Write("2.sayıyı giriniz:");
+Console.WriteLine("2.kenar uzunluğunu giriniz: ");
 int b = int.Parse(Console.ReadLine()!);
-Console.Write("3.sayıyı giriniz:");
+Console.WriteLine("3.kenar uzunluğunu giriniz: ");
 int c = int.Parse(Console.ReadLine()!);
-string message;
 
 
