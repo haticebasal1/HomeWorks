@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Bir cümle giriniz:");
-string str = Convert.ToString(Console.ReadLine()!);
+string str = Console.ReadLine()!;
     while (str!="0")
     {
         string buyuk=str.ToUpper();
