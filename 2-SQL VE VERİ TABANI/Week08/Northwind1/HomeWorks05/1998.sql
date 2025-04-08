@@ -1,0 +1,4 @@
+SELECT
+*
+FROM Orders
+WHERE OrderDate=1998;
